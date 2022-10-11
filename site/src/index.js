@@ -6,16 +6,16 @@ import Index from './pages/acai/index.js';
 import Sorveteria from './pages/sorveteria';
 import Sorveteriabuttom from './pages/sorveteriabuttom';
 import Signobuttom from './pages/signobuttom';
-
-
 import Acaibuttom from './pages/acaibuttom';
-
 import Signo from './pages/signo';
+import Salario from './pages/salario';
+import Temperatura from './pages/Temperatura';
+import Abastecimento from './pages/Abastecimento';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sorveteriabuttom />
+    <Temperatura />
   </React.StrictMode>
 );
 
