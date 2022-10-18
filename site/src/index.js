@@ -11,11 +11,14 @@ import Signo from './pages/signo';
 import Salario from './pages/salario';
 import Temperatura from './pages/Temperatura';
 import Abastecimento from './pages/Abastecimento';
+import Contar from './pages/contar';
+import Asteristicos from './pages/asteristicos';
+import Retangulo from './pages/retangulo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Temperatura />
+    <Retangulo />
   </React.StrictMode>
 );
 
