@@ -14,11 +14,12 @@ import Abastecimento from './pages/Abastecimento';
 import Contar from './pages/contar';
 import Asteristicos from './pages/asteristicos';
 import Retangulo from './pages/retangulo';
+import Cafe from './pages/Café';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Retangulo />
+    <Cafe />
   </React.StrictMode>
 );
 
