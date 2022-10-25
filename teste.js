@@ -1,11 +1,12 @@
-function click(qtlaluno, recipiente, mililitros){
+function click(qtlaluno){
     try{
-        let litrostotal = (qtlaluno*mililitros)/1000
-        let calma = litrostotal/recipiente
-        let as = Math.ceil(calma)*recipiente
+        let array = []
+        for(let cont= 0; cont <= qtlaluno; cont++){
+            array[cont]= cont
+        }
+        return(array)
         
 
-return calma
     }
     catch(err){
         return err.message
@@ -13,4 +14,4 @@ return calma
 }
 
 
-console.log(click(2, 3, 3000))
+console.log(click(5))

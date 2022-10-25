@@ -16,11 +16,12 @@ import Asteristicos from './pages/asteristicos';
 import Retangulo from './pages/retangulo';
 import Cafe from './pages/Café';
 import Juros from './pages/juros';
+import Aluno from './pages/alunos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Juros />
+    <Aluno />
   </React.StrictMode>
 );
 
